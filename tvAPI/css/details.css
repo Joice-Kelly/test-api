@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(34, 28, 36);
+  color:rgb(204, 203, 219);
+}
+
+#container {
+  padding: 70px 0;
+}
+#details-panel {
+  width: 500px;
+  margin: 30px auto;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #FCFFE7;
+  color: #282A3A;
+  align-items: center;
+  justify-content: center;
+}
+
+#poster {
+  margin-right: 20px;
+  width: 210px;
+}
+
+.metadata {
+  margin-bottom: 10px;
+}
+
+.metadata-title {
+  font-family: 'bold';
+}
+
+.metadata-value {
+  font-family: 'regular';
+}
+
+#back-link {
+  display: block;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'bold';
+  background-color: #2d55ff;
+  padding: 10px 0;
+  color: white;
+  border-radius: 10px;
+}
+
+#add-favorite{
+  display: flex;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'bold';
+  background-color: red;
+  padding: 15px 0;
+  color: white;
+  border-radius: 10px;
+}

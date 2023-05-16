@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'bold';
+  src: url(../font/Karlo-SansBold-BF645af46b4d671.otf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../font/Karlo-SansRegular-BF645af46b59473.otf);
+}

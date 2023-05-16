@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  display: flex;
+  background-color: rgb(34, 28, 36);
+  color:rgb(204, 203, 219);
+  min-width: 470px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'regular';
+  font-size: 18px;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0 0 0.5rem 0;
+}
+
+input, button{
+  font-family: 'regular';
+  outline: none;
+  background-color: rgb(204, 203, 219);
+  color: rgb(34, 28, 36);
+}
+
+h1{
+  margin: 0;
+  font-family: 'bold';
+  font-size: 40px;
+}
+
+p{
+  margin: 0;
+  font-family: 'regular';
+  font-size: 25px;
+}
+
+img{
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#app{
+  margin: 0 auto;
+  padding: 0.5rem 1rem 1rem 1rem;
+  max-width: 800px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#app >*{
+  display: flex;
+}
+
+#bar{
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-top: 1rem;
+}
+
+#bar h1{
+  padding: 0.2rem 1rem;
+  font-family: 'bold';
+  font-size: 40px;
+}
+
+#search-form{
+  flex: 1;
+  display: flex;
+}
+
+#search-form input, #search-form button{
+  padding: 0.1rem 0.5rem;
+  border: 0;
+  font-size: 2rem;
+}
+
+#query{
+  flex: 1;
+}
+
+#result{
+  flex: 1;
+  align-items: flex-start ;
+}
+
+#shows{
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#shows li{
+  flex-basis: 126px;
+  display: flex;
+  flex-direction: column;
+}
+
+.poster{
+  background-color: rgb(60, 45, 65);
+  height: 177px;
+}
